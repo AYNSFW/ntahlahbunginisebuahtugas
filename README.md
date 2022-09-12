@@ -1,2 +1,2 @@
-# ntahlahbunginisebuahtugas
-Buat tugas sih gk ada yang lain
+# Ah tidak kau membaca ini
+tidaaaaaaakkkkk kau membaca ini juga
