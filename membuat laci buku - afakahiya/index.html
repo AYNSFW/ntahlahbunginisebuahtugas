@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/img/icon.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily ToDo - MRWeb|Genshin Impact</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="judulpage">
+            <h1>
+                bOOkshelf - Genshin Impact
+            </h1>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="content">
+            <article id="tambahdatabuku" class="card">
+                <h1>FORM Data Buku</h1>
+                <form class="form" action="#" id="form">
+                    <div class="form-group form-title">
+                      <label for="title">Masukkan Judul Buku</label>
+                      <input type="text" id="judul" name="judul" required>
+                    </div>
+                    <div class="form-group form-title">
+                      <label for="author">Masukkan Author Buku</label>
+                      <input type="text" id="author" name="author" required>
+                    </div>
+                    <div class="form-group form-title">
+                        <label for="tahun">Masukkan Tahun Buku</label>
+                        <input type="text" id="tahun" name="tahun" required>
+                    </div>
+                    <input type="submit" value="Submit" name="Submit" class="btn-submit">
+                </form>
+            </article>
+            <article id="caridatabuku" class="card">
+                <h1>Cari Data Buku</h1>
+                <form class="form" action="#" id="form1">
+                    <div class="form-group form-title">
+                      <label for="titlecari">Masukkan Judul Buku</label>
+                      <input type="text" id="titlecari" name="titlecari" required>
+                    </div>
+                    <input type="submit" value="Submit" name="Submitcari" class="btn-submit">
+                    <button id="resetbtn" class="btn-submit">Reset</button>
+                </form>
+            </article>
+            <article id="bukubelumdibaca" class="card">
+                <h1>Belum selesai dibaca</h1>
+                <div class="table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                        <tr>
+                            <th>Judul Buku</th>
+                            <th>Author Buku</th>
+                            <th>Tahun Buku</th>
+                            <th>Pengaturan</th>
+                        </tr>
+                        </thead>
+                        <tbody id="belumDibaca">
+                        <tbody>
+                    </table>
+                </div>
+            </article>
+            <article id="bukuselesaidibaca" class="card">
+                <h1>Selesai dibaca</h1>
+                <div class="table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                        <tr>
+                            <th>Judul Buku</th>
+                            <th>Author Buku</th>
+                            <th>Tahun Buku</th>
+                            <th>Pengaturan</th>
+                        </tr>
+                        </thead>
+                        <tbody id="sudahDibaca">
+                        <tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+      </main>
+      <footer>
+        <p>
+            &copy; 2022, MRWARCHIVE
+        </p>
+      </footer>
+      <script src="assets/script.js"></script>
+</body>
+</html>
